@@ -1,9 +1,12 @@
 import logo from './cat.jpg';
 import './App.css';
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
     <div className="App">
+        <Navbar />
       <header className="App-header">
         <h1>Midnight Cat Development</h1>
         <img src={logo} className="App-logo" alt="logo" />
@@ -11,7 +14,7 @@ function App() {
           Under construction
         </h2>
       </header>
-      <footer>foot</footer>
+      <Footer/>
     </div>
   );
 }
